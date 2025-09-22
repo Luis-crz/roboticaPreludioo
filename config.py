@@ -23,10 +23,10 @@ MOTOR_PINS = {
 
 # Sensores HC-SR04 - NUEVA CONFIGURACIÓN
 ULTRASONIC_PINS = {
-    'frontal_izq': {'trig': 4, 'echo': 17},   # GPIO 4,17 - Frontal Izquierdo
-    'frontal_der': {'trig': 27, 'echo': 22},  # GPIO 27,22 - Frontal Derecho
-    'trasero_izq': {'trig': 5, 'echo': 6},    # GPIO 5,6 - Trasero Izquierdo (135°)
-    'trasero_der': {'trig': 23, 'echo': 24}   # GPIO 23,24 - Trasero Derecho (225°)
+    'frontal_izq': {'trig': 5, 'echo': 6},   # GPIO 4,17 - Frontal Izquierdo
+    'frontal_der': {'trig': 23, 'echo': 24},  # GPIO 27,22 - Frontal Derecho
+    'trasero_izq': {'trig': 4, 'echo': 17},    # GPIO 5,6 - Trasero Izquierdo (135°)
+    'trasero_der': {'trig': 27, 'echo': 22}   # GPIO 23,24 - Trasero Derecho (225°)
 }
 
 # MPU6050 IMU
